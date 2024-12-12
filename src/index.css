@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... (keeping existing base styles) */
+
+@layer components {
+  /* ... (keeping existing component styles) */
+
+  .button-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full 
+           bg-[#19a34c] text-white font-medium hover:bg-[#15803d] 
+           transition-all duration-200 text-sm sm:text-base
+           w-full xs:w-auto shadow-sm hover:shadow-md;
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full 
+           bg-white text-[#19a34c] font-medium border-2 border-[#19a34c] 
+           hover:bg-[#19a34c]/10 hover:border-[#15803d] hover:text-[#15803d] 
+           transition-all duration-200 text-sm sm:text-base
+           w-full xs:w-auto shadow-sm hover:shadow-md;
+  }
+
+  /* ... (rest of the styles) */
+}
+
+/* ... (rest of the file content) */
