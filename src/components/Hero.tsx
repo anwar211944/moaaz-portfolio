@@ -96,7 +96,7 @@ export default function Hero() {
               className="text-base xs:text-lg sm:text-xl text-gray-600"
               variants={itemVariants}
             >
-              Data Scientist | Engineer
+              Data Scientist | AI Engineer
             </motion.p>
             <motion.p
               className="text-sm xs:text-base sm:text-lg text-gray-600 max-w-2xl mx-auto"
